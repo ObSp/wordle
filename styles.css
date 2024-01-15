@@ -1,0 +1,154 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #202124;
+}
+
+h1 {
+    font-size: 400%;
+    color: white;
+}
+
+#menu-bar {
+    margin-top: 0;
+    width: 100%;
+    background-color: #31343A;
+    height: 5%;
+    vertical-align:text-bottom;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-top: 0;
+    vertical-align:middle;
+    color: white;
+    font-size: 25px;
+    user-select: none;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+#websites-show {
+    position: relative;
+    background-color: #31343A;
+    z-index: 10;
+    height: 50%;
+    width: 50%;
+    top: -740px;
+    border-radius: 30px;
+}
+
+#wordle-container {
+    display: inline-block;
+    margin-right: 25%;
+    margin-top: 5%;
+    margin-left: 1%;
+    background-color: #31343A;
+    width: 50%;
+    height: 75%;
+    text-align: center;
+    border-radius: 3%;
+    box-shadow: 15px 15px rgba(24, 24, 24, 0.532);
+}
+
+#aside-list {
+    float: left;
+    margin-top: 15%;
+    background-color: #31343A;
+    width: 20%;
+    height: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 15px 15px rgba(24, 24, 24, 0.532);
+}
+
+#word-stats {
+    margin-top: -29.75%;
+    margin-right: 4.5%;
+    float: right;
+    background-color: #31343A;
+    width: 20%;
+    height: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 15px 15px rgba(24, 24, 24, 0.532);
+}
+
+#full-word-display {
+    margin-top: -8%;
+    margin-bottom: 0%;
+    text-align: center;
+    color: #30d361;
+    letter-spacing: 10px;
+    font-size: 60px;
+}
+
+#list-item {
+    color: white;
+    font-size: 25px;
+}
+
+
+#user-msg {
+    color: white;
+    font-size: 30px;
+    margin-top: 5%;
+}
+
+#yellow-words {
+    color: #e4c05c;
+    font-size: 30px;
+}
+
+
+
+input {
+    width: 30%;
+    font-size: 50px;
+    text-align: center;
+    background-color: #202124;
+    border-style: none;
+    caret-color: white;
+    color: white;
+    letter-spacing: 10px;
+    margin-top: 2%;
+    border-radius: 15px;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+.list-header {
+    color: white;
+    font-size: 25px;
+}
+
+
+#tell-correct {
+    font-size: 50px;
+}
+
+
+
+.Wrong {
+    color: #ce1d53;
+}
+
+.InWord {
+    color: #e4c05c;
+}
+
+.Correct {
+    color: #30d361;
+}
